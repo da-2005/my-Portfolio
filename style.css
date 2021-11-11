@@ -97,6 +97,7 @@ li{
 }
 
 .project4{
+    clear: both;
     text-align: center;
 }
 
@@ -138,11 +139,19 @@ li{
     color: black;
 }
 
+@media screen and (max-width: 992px) {
+    header, #image1, #image2, #image3, #image4{
+        width: 100%;
+    }
+    
+}
 
 
-
-
-
-
+@media screen and (max-width: 768px) {
+    header, #image1, #image2, #image3, #image4{
+        width:100%;
+    }
+    
+}
 
 
