@@ -2,8 +2,8 @@
 
 ## Technologies Used
 So far the technoligies used are:
--HTML
--CSS
+- HTML
+- CSS
 I am planning on adding JavaScript later on to make the site feel more dynamic. 
 
 ## Description
@@ -31,5 +31,5 @@ This is my portfolio of projects for interested employers:
 https://da-2005.github.io/my-Portfolio/
 
 ## Contact
-Email: alvarezderrick0@gmail.com
-Cell: (323) 744-9916
+- Email: alvarezderrick0@gmail.com
+- Cell: (323) 744-9916
