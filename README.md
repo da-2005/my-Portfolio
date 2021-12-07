@@ -4,7 +4,7 @@
 So far the technoligies used are:
 - HTML
 - CSS
-I am planning on adding JavaScript later on to make the site feel more dynamic. 
+- I am planning on adding JavaScript later on to make the site feel more dynamic. 
 
 ## Description
 This is my portfolio of projects for interested employers:
