@@ -55,6 +55,7 @@ li{
     margin-top: 75px;
     margin-bottom: 50px;
     text-align: center;
+    font-size: larger;
 }
  .largeImage{ 
     width: 100%;
@@ -74,11 +75,13 @@ li{
 
 .project2 h3{
     margin-bottom: 75px;
+    font-size: larger;
 }
 
 #image2:hover{
     opacity: 0.5;
 }
+
 
 .project3{
     float: left;
@@ -90,6 +93,7 @@ li{
 
 .project3 h3{
     margin-bottom: 75px;
+    font-size: larger;
 }
 
 #image3:hover{
@@ -135,11 +139,11 @@ li{
     font-size: x-large;
 }
 
-#github, #gmail{
-    color: black;
+#github, #gmail, #phone, #linkedin {
+    color:black
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     header, #image1, #image2, #image3, #image4{
         width: 100%;
     }
@@ -147,7 +151,7 @@ li{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     header, #image1, #image2, #image3, #image4{
         width:100%;
     }
@@ -155,3 +159,35 @@ li{
 }
 
 
+#image2, #image3 {
+    background-color: rgb(255, 255, 240);
+border: solid 5px black;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+
+
+color: rgb(85, 26, 139);
+cursor: auto;
+display: inline;
+font-family: serif;
+font-size: 16px;
+height: 427px;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: center;
+vertical-align: baseline;
+width: 640px;
+}
