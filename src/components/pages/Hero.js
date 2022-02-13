@@ -5,7 +5,11 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    color,
+    Icon
   } from '@chakra-ui/react';
+
+  import { GoMarkGithub } from "react-icons/go";
 
 
   export default function Hero() {
@@ -26,12 +30,27 @@ import {
                 <Stack maxW={'2xl'} align={'flex-start'} spacing={6}>
                   <Text
                     color={'white'}
-                    fontWeight={700}
+                    fontWeight={1000}
                     lineHeight={1.2}
-                    fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                    eiusmod tempor
+                    fontSize={useBreakpointValue({ base: '4xl', md: '6xl' })}>
+                    Derrick Alvarez
                   </Text>
+                </Stack>
+                <Stack maxW={'2xl'} align={'flex-start'} spacing={6}>
+                  <Text
+                    color={'white'}
+                    fontWeight={'normal'}
+                    lineHeight={1.2}
+                    position={'relative'}
+                    top={100}
+                    textAlign={'center'}
+                    fontSize={useBreakpointValue({ base: '1xl', md: '2xl' })}>
+                    Hi! I'm a Front-End Web Developer from Los Angeles, CA and my background in History has given me the ability to focus on the small and large details for greater code efficiency and better user experience.
+                  </Text>
+                  <Icon as={GoMarkGithub}/>
+                </Stack>
+                <Stack>
+                  <Icon as={GoMarkGithub} color='red.500'/>
                 </Stack>
               </VStack>
         </Flex>
