@@ -6,10 +6,12 @@ import {
     VStack,
     useBreakpointValue,
     color,
-    Icon
+    Icon,
+    Link
   } from '@chakra-ui/react';
 
-  import { GoMarkGithub } from "react-icons/go";
+  import { SiGithub } from "react-icons/si";
+  import { GrLinkedin } from "react-icons/gr";
 
 
   export default function Hero() {
@@ -47,12 +49,32 @@ import {
                     fontSize={useBreakpointValue({ base: '1xl', md: '2xl' })}>
                     Hi! I'm a Front-End Web Developer from Los Angeles, CA and my background in History has given me the ability to focus on the small and large details for greater code efficiency and better user experience.
                   </Text>
-                  <Icon as={GoMarkGithub}/>
                 </Stack>
                 <Stack>
-                  <Icon as={GoMarkGithub} color='red.500'/>
+                  <Link href='https://github.com/da-2005'>
+                    <Icon as={SiGithub} 
+                      color='blue.500'
+                      position={'relative'}
+                      top={150}
+                      right={50}
+                      w={10}
+                      h={10}
+                    />
+                  </Link>
+                </Stack>
+                <Stack>
+                  <Link href='https://www.linkedin.com/in/derrick-alvarez-70692921b/'>
+                    <Icon as={GrLinkedin} 
+                      color='blue.500'
+                      position={'relative'}
+                      top={104}
+                      left={50}
+                      w={10}
+                      h={10}
+                    />
+                  </Link>
                 </Stack>
               </VStack>
         </Flex>
     );
-  }
+}
