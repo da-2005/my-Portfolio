@@ -7,11 +7,13 @@ import {
   Heading,
   Text,
   Container,
+  Flex
 } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick';
+import '../../App.css'
 
 
 // Settings for the slider
@@ -63,9 +65,11 @@ export default function Projects() {
     },
   ];
 
-  return (
+  
+  return ( 
     <Box
       position={'relative'}
+      top={100}
       height={'600px'}
       width={'full'}
       overflow={'hidden'}>
@@ -75,12 +79,12 @@ export default function Projects() {
         type="text/css"
         charSet="UTF-8"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-      />
+        />
       <link
         rel="stylesheet"
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-      />
+        />
       {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
@@ -109,13 +113,13 @@ export default function Projects() {
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
         {cards.map((card, index) => (
           <Box
-            key={index}
-            height={'6xl'}
-            position="relative"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat"
-            backgroundSize="cover"
-            backgroundImage={`url(${card.image})`}>
+          key={index}
+          height={'6xl'}
+          position="relative"
+          backgroundPosition="center"
+          backgroundRepeat="no-repeat"
+          backgroundSize="cover"
+          backgroundImage={`url(${card.image})`}>
             {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="600px" position="relative">
               <Stack
@@ -136,6 +140,6 @@ export default function Projects() {
           </Box>
         ))}
       </Slider>
-    </Box>
+    </Box>   
   );
 }
