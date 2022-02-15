@@ -13,8 +13,8 @@ export default function Navbar({currentPage, handlePageChange}) {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className={currentPage === 'Hero' ? 'nav-link active' : 'nav-link'} href="#Hero" onClick={() => handlePageChange('Hero')}>Home</a>
-              <a className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} href="#About">About</a>
-              <a className="nav-link" href="#">Projects</a>
+              <a className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} href="#About" onClick={() => handlePageChange('About')}>About</a>
+              <a className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'} href="#Projects" onClick={() => handlePageChange('Projects')}>Projects</a>
               <a className="nav-link">Contact</a>
             </div>
           </div>
