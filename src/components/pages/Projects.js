@@ -6,8 +6,7 @@ import {
   Stack,
   Heading,
   Text,
-  Container,
-  Flex
+  Container
 } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
