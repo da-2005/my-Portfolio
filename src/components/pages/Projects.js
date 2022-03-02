@@ -46,7 +46,7 @@ export default function Projects() {
       text:
         "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
       image:
-        'https://user-images.githubusercontent.com/90587395/155243997-fdd749e5-3a27-4589-94b7-a0784f279e7b.png',
+        'https://user-images.githubusercontent.com/90587395/156270088-7a062f08-29cc-4a97-9504-ba629f8c41f1.png',
     },
     {
       title: 'Design Projects 2',
@@ -128,7 +128,8 @@ export default function Projects() {
                 position="absolute"
                 top="50%"
                 transform="translate(0, -50%)">
-                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                <Heading 
+                  fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                   {card.title}
                 </Heading>
                 <Text fontSize={{ base: 'md', lg: 'lg' }} color="red">
