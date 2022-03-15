@@ -66,7 +66,6 @@ export default function Projects() {
       height={'600px'}
       width={'full'}
       overflow={'hidden'}>
-      {/* CSS files for react-slick */}
       <link
         rel="stylesheet"
         type="text/css"
