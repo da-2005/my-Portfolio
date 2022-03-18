@@ -112,7 +112,6 @@ export default function Projects() {
           backgroundRepeat="no-repeat"
           backgroundSize="contain"
           backgroundImage={`url(${card.image})`}>
-            {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="600px" position="relative">
               <Stack
                 spacing={6}
