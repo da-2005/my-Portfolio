@@ -88,7 +88,6 @@ export default function Projects() {
         onClick={() => slider?.slickPrev()}>
         <BiLeftArrowAlt size="40px" />
       </IconButton>
-      {/* Right Icon */}
       <IconButton
         aria-label="right-arrow"
         variant="ghost"
